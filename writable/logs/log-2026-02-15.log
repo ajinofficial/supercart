@@ -1,0 +1,9 @@
+CRITICAL - 2026-02-15 16:55:45 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

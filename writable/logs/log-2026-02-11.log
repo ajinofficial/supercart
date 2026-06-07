@@ -1,0 +1,120 @@
+CRITICAL - 2026-02-11 15:17:29 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:23:50 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:23:55 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:26:26 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:26:50 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:26:52 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:26:57 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:27:21 --> Error: Class "App\Controllers\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:27:26 --> ErrorException: include(C:\xampp\htdocs\codeiginter_4\app\Views/layout/header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: admin/orders]
+in APPPATH\Views\admin\orders.php on line 1.
+ 1 APPPATH\Views\admin\orders.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\codeiginter_4\\app\\Views/layout/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\codeiginter_4\\app\\Views\\admin\\orders.php', 1)
+ 2 APPPATH\Views\admin\orders.php(1): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\codeiginter_4\\app\\Views\\admin\\orders.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/orders', [], true)
+ 6 APPPATH\Controllers\Order.php(25): view('admin/orders')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:27:30 --> ErrorException: include(C:\xampp\htdocs\codeiginter_4\app\Views/layout/header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: admin/orders]
+in APPPATH\Views\admin\orders.php on line 1.
+ 1 APPPATH\Views\admin\orders.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\codeiginter_4\\app\\Views/layout/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\codeiginter_4\\app\\Views\\admin\\orders.php', 1)
+ 2 APPPATH\Views\admin\orders.php(1): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\codeiginter_4\\app\\Views\\admin\\orders.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/orders', [], true)
+ 6 APPPATH\Controllers\Order.php(25): view('admin/orders')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Order->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:30:02 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-11 15:35:04 --> Error: Class "App\Models\OrderModel" not found
+[Method: GET, Route: admin/orders]
+in APPPATH\Controllers\Order.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Order->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

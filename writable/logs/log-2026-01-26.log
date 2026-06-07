@@ -1,0 +1,46 @@
+CRITICAL - 2026-01-26 07:17:51 --> ErrorException: Undefined variable $userModel
+[Method: POST, Route: register/usernameValidation]
+in APPPATH\Controllers\Register.php on line 105.
+ 1 APPPATH\Controllers\Register.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\codeiginter_4\\app\\Controllers\\Register.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->usernameValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-26 07:25:31 --> ErrorException: Undefined variable $userModel
+[Method: POST, Route: register/usernameValidation]
+in APPPATH\Controllers\Register.php on line 105.
+ 1 APPPATH\Controllers\Register.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\codeiginter_4\\app\\Controllers\\Register.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->usernameValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-26 07:26:05 --> ErrorException: Undefined variable $userModel
+[Method: POST, Route: register/usernameValidation]
+in APPPATH\Controllers\Register.php on line 105.
+ 1 APPPATH\Controllers\Register.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\codeiginter_4\\app\\Controllers\\Register.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->usernameValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-26 07:33:04 --> ParseError: syntax error, unexpected token "return"
+[Method: POST, Route: register/usernameValidation]
+in APPPATH\Models\UserModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeiginter_4\\app\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Register->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-01-26 16:22:22 --> ErrorException: Cannot redeclare App\Controllers\Register::usernameValidation()
+[Method: POST, Route: register/usernameValidation]
+in APPPATH\Controllers\Register.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

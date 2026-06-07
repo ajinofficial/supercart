@@ -1,0 +1,14 @@
+CRITICAL - 2026-06-07 11:40:49 --> Error: Call to undefined method App\Controllers\Reports::currencySymbol()
+[Method: GET, Route: admin/reports]
+in APPPATH\Controllers\Reports.php on line 247.
+ 1 APPPATH\Controllers\Reports.php(103): App\Controllers\Reports->row('Orders', 'ODR-260319-91961', 'ODR-260319-91961', 'Ajin AS', 'Delivered', 114500.0, 'COD', '2026-03-19', true, false, false, 114500.0)
+ 2 [internal function]: App\Controllers\Reports->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\Reports.php(88): array_map(Object(Closure), [...])
+ 4 APPPATH\Controllers\Reports.php(53): App\Controllers\Reports->fetchOrders('2026-03-10', '2026-06-07')
+ 5 APPPATH\Controllers\Reports.php(19): App\Controllers\Reports->buildReport([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->reports_view()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
