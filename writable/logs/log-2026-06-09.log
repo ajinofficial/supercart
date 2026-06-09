@@ -1,0 +1,96 @@
+ERROR - 2026-06-09 15:03:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php(202): mysqli->real_connect('localhost', 'root', '', 'online_cart', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(209): CodeIgniter\Database\BaseConnection->tableExists('accounts')
+#6 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(41): App\Controllers\Onboard->ensureAccountsTable()
+#7 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(933): App\Controllers\Onboard->create()
+#8 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Onboard))
+#9 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter_4\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter_4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codeigniter_4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(209): CodeIgniter\Database\BaseConnection->tableExists('accounts')
+#5 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(41): App\Controllers\Onboard->ensureAccountsTable()
+#6 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(933): App\Controllers\Onboard->create()
+#7 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Onboard))
+#8 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter_4\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codeigniter_4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codeigniter_4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2026-06-09 15:04:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php(202): mysqli->real_connect('localhost', 'root', '', 'online_cart', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(209): CodeIgniter\Database\BaseConnection->tableExists('accounts')
+#6 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(41): App\Controllers\Onboard->ensureAccountsTable()
+#7 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(933): App\Controllers\Onboard->create()
+#8 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Onboard))
+#9 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter_4\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter_4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codeigniter_4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(209): CodeIgniter\Database\BaseConnection->tableExists('accounts')
+#5 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(41): App\Controllers\Onboard->ensureAccountsTable()
+#6 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(933): App\Controllers\Onboard->create()
+#7 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Onboard))
+#8 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter_4\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codeigniter_4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codeigniter_4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2026-06-09 15:04:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php(202): mysqli->real_connect('localhost', 'root', '', 'online_cart', 3306, '', 0)
+#1 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(209): CodeIgniter\Database\BaseConnection->tableExists('accounts')
+#6 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(41): App\Controllers\Onboard->ensureAccountsTable()
+#7 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(933): App\Controllers\Onboard->create()
+#8 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Onboard))
+#9 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\codeigniter_4\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter_4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\codeigniter_4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter_4\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1525): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\codeigniter_4\system\Database\BaseConnection.php(1545): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(209): CodeIgniter\Database\BaseConnection->tableExists('accounts')
+#5 C:\xampp\htdocs\codeigniter_4\app\Controllers\Onboard.php(41): App\Controllers\Onboard->ensureAccountsTable()
+#6 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(933): App\Controllers\Onboard->create()
+#7 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Onboard))
+#8 C:\xampp\htdocs\codeigniter_4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter_4\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\codeigniter_4\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\codeigniter_4\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}

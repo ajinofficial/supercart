@@ -6,6 +6,8 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 // $routes->get('/', 'Home::index');
+$routes->get('onboard', 'Onboard::index');
+$routes->post('onboard/create', 'Onboard::create');
 $routes->get('login', 'Auth::login');
 $routes->get('logout', 'Auth::logout');
 // $routes->post('login', 'Auth::login');

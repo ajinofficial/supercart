@@ -3,6 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Database\Config;
+use Config\GlobalSettings;
 
 /**
  * Database Configuration
@@ -26,10 +27,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'online_cart',
+        'hostname'     => GlobalSettings::DATABASE_HOST,
+        'username'     => GlobalSettings::DATABASE_USERNAME,
+        'password'     => GlobalSettings::DATABASE_PASSWORD,
+        'database'     => GlobalSettings::MAIN_DATABASE,
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
